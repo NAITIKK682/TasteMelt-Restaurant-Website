@@ -5,8 +5,7 @@ TasteMelt Restaurant Website is a modern, responsive restaurant website built us
 
 ## Tech Stack
 - **Frontend:** React, Vite, Tailwind CSS  
-- **Backend:** Node.js, Express  
-- **Database:** MongoDB
+
 
 ## Features
 - Responsive UI designed with Tailwind CSS  
@@ -129,10 +128,10 @@ The website uses the Google Maps JavaScript API to embed an interactive map on t
 
 *Add screenshots below to showcase your app*  
 
-![Home Page](path/to/screenshot-home.png)  
-![Menu Page](path/to/screenshot-menu.png)  
-![Contact Page](path/to/screenshot-contact.png)  
-![Reservation Page](path/to/screenshot-reserve.png)  
+![Home Page](src/assets/screenshots/screenshot-home.png)  
+![Menu Page](src/assets/screenshots/screenshot-menu.png)  
+![Contact Page](src/assets/screenshots/screenshot-contact.png)  
+![Reservation Page](src/assets/screenshots/screenshot-reserve.png)  
 
 ## Future Enhancements
 
