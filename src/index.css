@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom base styles */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+/* Custom component styles */
+@layer components {
+  .btn-primary {
+    @apply bg-saffron hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200;
+  }
+
+  .btn-secondary {
+    @apply bg-white hover:bg-gray-50 text-gray-800 border border-gray-300 font-semibold py-2 px-4 rounded-lg transition-colors duration-200;
+  }
+
+  .card {
+    @apply bg-white rounded-lg shadow-md p-6;
+  }
+
+  .section-padding {
+    @apply py-16 px-4;
+  }
+}
+
+/* Utility classes */
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .glassmorphism {
+    background: rgba(255, 255, 255, 0.25);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+}
+
+/* Glowing heading animation */
+@keyframes glow {
+  0% { text-shadow: 0 0 0 rgba(255, 191, 64, 0); transform: scale(1); }
+  40% { text-shadow: 0 0 18px rgba(255, 191, 64, 0.18), 0 0 36px rgba(255, 191, 64, 0.06); transform: scale(1.02); }
+  100% { text-shadow: 0 0 0 rgba(255, 191, 64, 0); transform: scale(1); }
+}
+
+.animate-glow {
+  animation: glow 3.2s ease-in-out infinite;
+}
+
+.glow-strong {
+  text-shadow: 0 0 24px rgba(255, 191, 64, 0.22), 0 0 48px rgba(255, 191, 64, 0.08);
+}

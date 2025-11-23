@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Authentic Butter Chicken",
+    "category": "Main Course",
+    "image": "/gallery/authentic-butter-chicken.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Restaurant Interior",
+    "category": "Ambiance",
+    "image": "/gallery/restaurant-interior.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Fresh Tandoori Naan",
+    "category": "Breads",
+    "image": "/gallery/fresh-tandoori-naan.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Gulab Jamun Dessert",
+    "category": "Desserts",
+    "image": "/gallery/gulab-jamun-dessert.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Spice Collection",
+    "category": "Ingredients",
+    "image": "/gallery/spice-collection.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Chef at Work",
+    "category": "Kitchen",
+    "image": "/gallery/chef-at-work.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Paneer Tikka",
+    "category": "Starters",
+    "image": "/gallery/paneer-tikka.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Dining Area",
+    "category": "Ambiance",
+    "image": "/gallery/dining-area.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Masala Chai",
+    "category": "Beverages",
+    "image": "/gallery/masala-chai.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Biryani Platter",
+    "category": "Main Course",
+    "image": "/gallery/biryani-platter.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Herb Garden",
+    "category": "Ingredients",
+    "image": "/gallery/herb-garden.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Family Celebration",
+    "category": "Events",
+    "image": "/gallery/family-celebration.jpg"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Flat 20% Off on First Order",
+    "description": "Get 20% off on your first order above ₹500",
+    "code": "FIRST20",
+    "type": "percentage",
+    "value": 20,
+    "minOrder": 500,
+    "image": "/offer/offer1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "₹100 Off on Orders Above ₹1000",
+    "description": "Enjoy ₹100 off on orders above ₹1000",
+    "code": "SAVE100",
+    "type": "fixed",
+    "value": 100,
+    "minOrder": 1000,
+    "image": "/offer/offer2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Festival Combo Deal",
+    "description": "Special combo: Butter Chicken + Biryani + Dessert for ₹450",
+    "code": "FESTIVAL",
+    "type": "combo",
+    "value": 450,
+    "items": [3, 5, 6],
+    "image": "/offer/offer3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Free Delivery on Orders Above ₹300",
+    "description": "No delivery charges on orders above ₹300",
+    "code": "FREEDEL",
+    "type": "delivery",
+    "value": 0,
+    "minOrder": 300,
+    "image": "/offer/offer4.jpg"
+  }
+]

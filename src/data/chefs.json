@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Chef Rajesh Kumar",
+    "role": "Executive Chef ",
+    "bio": "With over 20 years of experience in Indian cuisine, Chef Rajesh brings authentic flavors from traditional recipes passed down through generations.",
+    "specialties": ["North Indian", "Tandoori", "Fusion", "Non-Vegetarian"],
+    "image": "/chefs/chef1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Chef Priya Sharma",
+    "role": "Sous Chef",
+    "bio": "Specializing in South Indian delicacies, Chef Priya creates innovative dishes that blend traditional techniques with modern presentation.",
+    "specialties": ["South Indian", "Vegetarian", "Desserts", "Jain"],
+    "image": "/chefs/chef2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Chef Amit Patel",
+    "role": "Pastry Chef",
+    "bio": "Master of Indian sweets and desserts, Chef Amit crafts traditional mithai with a contemporary twist using the finest ingredients.",
+    "specialties": ["Desserts", "Sweets", "Fusion", "Vegetarian"],
+    "image": "/chefs/chef3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Chef Neha Kapoor",
+    "role": "Grill Master",
+    "bio": "Expert in traditional grilling techniques, Chef Neha brings out the smoky, rich flavors of Indian barbecue with finesse.",
+    "specialties": ["Tandoori", "Barbecue", "Non-Vegetarian", "Non-Veg"],
+    "image": "/chefs/chef4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Chef Ravi Mehta",
+    "role": "Curries Specialist",
+    "bio": "Ravi’s curry recipes are a blend of classic and innovative flavors, offering guests a diverse range of authentic tastes.",
+    "specialties": ["Curries", "North Indian", "Street Food", "Non-Vegetarian"],
+    "image": "/chefs/chef5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Chef Anjali Desai",
+    "role": "Vegetarian Chef",
+    "bio": "Anjali designs exquisite vegetarian dishes that highlight the richness and variety of Indian vegetable cuisine.",
+    "specialties": ["Vegetarian", "Vegan", "Healthy Eating", "Jain"],
+    "image": "/chefs/chef6.jpg"
+  }
+]

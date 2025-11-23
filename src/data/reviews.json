@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Anjali Gupta",
+    "rating": 5,
+    "comment": "Absolutely delicious! The butter chicken was out of this world. Will definitely order again.",
+    "date": "2023-10-15"
+  },
+  {
+    "id": 2,
+    "name": "Rahul Singh",
+    "rating": 4,
+    "comment": "Great food and fast delivery. The paneer tikka was perfectly spiced.",
+    "date": "2023-10-12"
+  },
+  {
+    "id": 3,
+    "name": "Meera Joshi",
+    "rating": 5,
+    "comment": "Love the variety on the menu. Everything is fresh and flavorful. Highly recommended!",
+    "date": "2023-10-10"
+  },
+  {
+    "id": 4,
+    "name": "Vikram Rao",
+    "rating": 4,
+    "comment": "Excellent service and quality. The biryani was aromatic and tasty.",
+    "date": "2023-10-08"
+  },
+  {
+    "id": 5,
+    "name": "Sneha Patel",
+    "rating": 5,
+    "comment": "Best Indian restaurant in town! The desserts are to die for.",
+    "date": "2023-10-05"
+  }
+]

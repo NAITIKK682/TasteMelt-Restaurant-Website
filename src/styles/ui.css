@@ -1,0 +1,79 @@
+/* frosted glass panel */
+.glass-panel {
+  /* light frosted card for light page backgrounds */
+  @apply bg-white/80 backdrop-blur rounded-2xl border border-white/20 text-gray-900;
+}
+
+.glass-panel-dark {
+  /* dark frosted card for dark backgrounds */
+  @apply bg-black/10 backdrop-blur rounded-2xl border border-white/10 text-white;
+}
+
+.brand-btn {
+  @apply inline-flex items-center justify-center rounded-full px-6 py-3 font-semibold tracking-wide;
+}
+
+.drop-shadow-2xl {
+  filter: drop-shadow(0 12px 30px rgba(0,0,0,0.35));
+}
+
+:root {
+  --ui-spacing-1: 6px;
+  --ui-spacing-2: 12px;
+  --ui-spacing-3: 16px;
+  --ui-radius: 14px;
+}
+
+/* small helpers for premium look */
+.hero-bg {
+  background-size: cover;
+  background-position: center;
+}
+
+/* Hero marquee styles */
+.hero-section {
+  /* subtle warm gradient and gentle shadow */
+  background: linear-gradient(90deg, rgba(255,250,240,0.9) 0%, rgba(255,255,255,0.85) 50%, rgba(255,250,240,0.9) 100%);
+}
+.hero-section .hero-overlay {
+  /* slight overlay to add depth without covering content */
+  background: linear-gradient(180deg, rgba(255,255,255,0.0) 0%, rgba(0,0,0,0.03) 100%);
+}
+.marquee-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.marquee {
+  display: flex;
+  gap: 4rem;
+  white-space: nowrap;
+  will-change: transform;
+  transform: translate3d(0,0,0);
+  animation: marquee 16s linear infinite;
+  align-items: center;
+}
+.marquee-text {
+  display: inline-block;
+  font-weight: 800;
+  color: #B45309; /* saffron-ish */
+  -webkit-font-smoothing: antialiased;
+  font-size: clamp(1.6rem, 6vw, 3.25rem);
+  letter-spacing: 0.02em;
+  text-shadow: 0 2px 8px rgba(180,83,9,0.08);
+}
+
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .marquee { animation: none; }
+}
+
+/* Slightly slower on small devices for readability */
+@media (max-width: 640px) {
+  .marquee { animation-duration: 22s; }
+}
+
