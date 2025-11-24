@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { motion, useScroll, useTransform } from 'framer-motion'
+import { Link } from 'react-router-dom'
 import PremiumButton from './PremiumButton'
 
 const Hero = ({
@@ -75,16 +76,16 @@ const Hero = ({
           transition={{ duration: 0.7, delay: 0.35 }}
           className="flex flex-col sm:flex-row gap-[20px] justify-center w-full max-w-md"
         >
-          <a href="/menu" className="w-full sm:w-auto">
+          <Link to="/menu" className="w-full sm:w-auto">
             <PremiumButton variant="primary" size="lg" className="w-full">
               Order Now
             </PremiumButton>
-          </a>
-          <a href="/reservations" className="w-full sm:w-auto">
+          </Link>
+          <Link to="/reservations" className="w-full sm:w-auto">
             <PremiumButton variant="outline" size="lg" className="w-full">
               Reserve Table
             </PremiumButton>
-          </a>
+          </Link>
         </motion.div>
       </div>
 
